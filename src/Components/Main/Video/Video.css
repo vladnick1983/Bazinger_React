@@ -1,0 +1,97 @@
+.section-video {
+  background-image: url("/public/img/video_fon.png");
+  background-repeat: no-repeat;
+  max-width: 1480px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  #summariseTheFeatures .container .col-lg-3,
+  #showTheGallery .container .row-cols-md-4 > * {
+    width: 25%;
+  }
+  #showTheGallery .container .row,
+  #summariseTheFeatures .container .row {
+    justify-content: space-between;
+  }
+  #showTheGallery .container .row-cols-md-4 > * {
+    max-width: 270px;
+    padding: 0;
+  }
+  #summariseTheFeatures .container .col-lg-3 {
+    max-width: 220px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #summariseTheFeatures .container .col-lg-3,
+  #showTheGallery .container .row-cols-md-4 > * {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #summariseTheFeatures .container .col-lg-3,
+  #showTheGallery .container .row-cols-md-4 > * {
+    width: 100%;
+  }
+}
+#videoSection .action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#videoSection .action button {
+  width: 115px;
+  height: 75px;
+  border: #ffffff solid 2px;
+  border-radius: 5px;
+  transition: 1s;
+}
+#videoSection .action .action-title {
+  font-size: 48px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 40px 0 35px 0;
+}
+#videoSection .action .action-title span {
+  font-weight: 700;
+}
+#videoSection .action button:hover {
+  transform: scale(1.1);
+}
+#videoSection .action .action-text {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  width: 70%;
+}
+.modal-header {
+  border: none;
+  max-height: 20px;
+  margin: 0px;
+  background-color: rgb(75, 202, 255, 15%);
+}
+.btn-close {
+  padding: 0px;
+  max-width: 10px;
+  max-height: 10px;
+}
+.modal-dialog {
+  max-width: 595px;
+  max-height: auto;
+}
+.modal-body {
+  background-color: rgb(75, 202, 255, 15%);
+  margin: 0px;
+  padding: 0px;
+}
+#showTheGallery {
+  padding: 0px;
+  margin-bottom: 110px;
+}
+#videoSection {
+  margin-top: 0px;
+}

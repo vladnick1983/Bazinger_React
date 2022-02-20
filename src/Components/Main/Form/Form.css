@@ -1,0 +1,53 @@
+#contactForm .form-contact {
+  background-image: url(/public/img/Map.png);
+  background-repeat: no-repeat;
+  max-width: 1480px;
+  height: 685px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+}
+#contactForm .form-contact .form {
+  width: 325px;
+  height: 460px;
+  background-color: #4bcaff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contactForm .form-contact .form .form-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 100px;
+}
+#contactForm .form-contact .form input[name="name"],
+#contactForm .form-contact .form input[name="email"],
+#contactForm .form-contact .form input[name="subject"] {
+  width: 270px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  text-align: center;
+  color: #d3d3d3;
+  border: 1px solid white;
+}
+#contactForm .form-contact .form textarea {
+  width: 270px;
+  height: 145px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #d3d3d3;
+  border: 1px solid white;
+}
+#contactForm .form-contact .form button {
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #414042;
+  color: #72b3cc;
+  border: 1px solid #72b3cc;
+}
